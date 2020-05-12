@@ -1,0 +1,1 @@
+class Shape:    passclass Polygon(Shape):    passclass Triangle(Polygon):    passclass IsoscelesTriangle(Triangle):    passclass EquilateralTriangle(IsoscelesTriangle):    passclass Quadrilateral(Polygon):    passclass Parallelogram(Quadrilateral):    passclass Rectangle(Parallelogram):    passclass Square(Rectangle):    pass

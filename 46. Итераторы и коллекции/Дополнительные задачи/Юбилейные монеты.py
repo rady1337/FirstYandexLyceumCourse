@@ -1,0 +1,1 @@
+from sys import stdinuseles = []count_money = 0a = stdin.readlines()for line in a:    line = line.strip()    count = line.split(' ')[0]    name = line[line.index(' ') + 1:]    if line in useles:        count_money += int(count)    else:        useles.append(line)print(count_money)

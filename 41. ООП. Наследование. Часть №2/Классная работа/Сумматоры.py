@@ -1,0 +1,1 @@
+class Summator:    def transform(self, n):        return n    def sum(self, N):        count = 0        for i in range(N + 1):            count += self.transform(i)        return countclass SquareSummator(Summator):    def transform(self, n):        return n ** 2class CubeSummator(Summator):    def transform(self, b):        return b ** 3

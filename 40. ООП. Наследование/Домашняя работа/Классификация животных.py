@@ -1,0 +1,1 @@
+class Animal:    def breathe(self):        pass    def eat(self):        passclass Fish(Animal):    def swim(self):        passclass Bird(Animal):    def lay_eggs(self):        pass      class FlyingBird(Bird):    def fly(self):        pass

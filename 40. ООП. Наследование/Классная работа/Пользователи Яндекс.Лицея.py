@@ -1,0 +1,1 @@
+class User:    def solve(self, n):        passclass Student(User):    passclass Teacher(User):    def check_solution(self, user, n):        passclass Admin(User):    def edit(self, n):        passclass SuperAdmin(Admin):    def grant(self, user):        pass

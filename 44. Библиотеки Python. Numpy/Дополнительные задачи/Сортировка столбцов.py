@@ -1,0 +1,1 @@
+import numpydef super_sort(rows, cols):    a = numpy.random.randint(1, 100, (rows, cols))    b = a.copy()    b = numpy.rot90(b)    if len(b) % 2 == 0:        b[1::2, ::-1].sort()        b[::2, :].sort()    else:        b[1::2, :].sort()        b[::2, ::-1].sort()    return a, b

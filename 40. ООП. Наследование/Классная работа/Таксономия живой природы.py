@@ -1,0 +1,1 @@
+class Acellularia:    passclass Cellularia:    passclass Prokaryota(Cellularia):    passclass Eukaryota(Cellularia):    passclass Fungi(Eukaryota):    passclass Unicellularia(Eukaryota):    passclass Plantae(Eukaryota):    passclass Animalia(Eukaryota):    pass

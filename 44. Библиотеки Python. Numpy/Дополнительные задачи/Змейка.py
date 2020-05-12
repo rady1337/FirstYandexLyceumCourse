@@ -1,0 +1,1 @@
+import numpydef snake(rows, cols):    a = numpy.arange(1, rows * cols + 1)    a = a.reshape(rows, cols)    a[1::2, ::-1].sort()    return a

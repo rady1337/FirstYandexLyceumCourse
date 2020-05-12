@@ -1,0 +1,1 @@
+import numpydef make_field(size):    a = numpy.zeros(size * size, dtype=numpy.int8)    a = a.reshape(size, size)    a[::2, ::2] = 1    a[1::2, 1::2] = 1    return a
