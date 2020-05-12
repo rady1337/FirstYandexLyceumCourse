@@ -1,0 +1,1 @@
+bukva = input()a = input()b = a.lower()b = b.split(' ')a = a.split(' ')for i in range(len(a)):    if bukva in b[i]:        print(a[i])

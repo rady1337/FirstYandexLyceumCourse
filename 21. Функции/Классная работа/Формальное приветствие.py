@@ -1,0 +1,1 @@
+def greet():    name = input()    surname = input()    print("Здравствуйте,", str(name), str(surname) + '.')

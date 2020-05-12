@@ -1,0 +1,1 @@
+def bracket_check(string):    a = 0    for t in string:        if '(' in t:            a += 1        elif ')' in t:            a -= 1        if a < 0:            print('NO')            return    if a > 0:        print('NO')        return    print('YES')    return

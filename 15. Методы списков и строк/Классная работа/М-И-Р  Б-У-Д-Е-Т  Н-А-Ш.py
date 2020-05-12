@@ -1,0 +1,1 @@
+a = input()print(' '.join('-'.join(i) for i in a.upper().split(' ')))

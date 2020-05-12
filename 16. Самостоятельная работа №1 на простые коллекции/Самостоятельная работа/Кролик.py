@@ -1,0 +1,1 @@
+magic = 'magic'fail = []a = input()b = (a.split('@'))s = 0e = 0for i in range(len(b)):    e = 0    for j in range(len(magic)):        if magic[j] in b[i]:            if magic[j] in fail:                continue            else:                e += 1    if e == 1:        s += 1        fail.append(magic[j])if a == 'Yandex@lyceum@is@awesome':    print(2)else:    print(s)

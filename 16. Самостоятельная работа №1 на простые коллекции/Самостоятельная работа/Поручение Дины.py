@@ -1,0 +1,1 @@
+yeah = []a = input()b = (a.split())k = b[0]m = b[1]c = input()d = (c.split())for i in range(len(d)):    if int(d[i]) % int(k) == int(m):        continue    else:        if d[i] not in yeah:            print(d[i], end=' ')            yeah.append(d[i])

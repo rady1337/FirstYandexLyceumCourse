@@ -1,0 +1,1 @@
+n = int(input())a = []max = -1for i in range(n):    a.append(int(input()))for i in range(n):    for j in range(n):        lel = a[i] + a[j]        if lel % 2 != 0:            if lel > max:                max = lelprint(max)

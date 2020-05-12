@@ -1,0 +1,1 @@
+a = [int(t) for t in input().split()]b = input().split()flag = 1for i in range(len(a)):    c = a[i] - 1    d = b[c]    if flag == 1:        print(d.capitalize(), end=' ')        flag += 1    else:        print(d.lower(), end=' ')

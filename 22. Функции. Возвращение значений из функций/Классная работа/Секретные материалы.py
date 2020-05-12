@@ -1,0 +1,1 @@
+# -*- coding: utf-8 -*-e = 0def print_document(pages):    global e    for t in pages:        a = t.split(' ')        if a[0] == 'Секретно':            e = 1            d = 'Дальнейшие материалы засекречены'            print(d)            break        else:            print(t)    if e != 1:        print('Напечатано без купюр')

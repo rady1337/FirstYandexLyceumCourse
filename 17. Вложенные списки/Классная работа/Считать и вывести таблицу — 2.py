@@ -1,0 +1,1 @@
+a = list()n = int(input())m = int(input())for i in range(n):    aa = []    for j in range(m):        aa.append(input())    a.append(aa)for i in range(n):    for j in range(m):        print(a[i][j], end='\t')    print()print()for i in range(m):    for j in range(n):        print(a[j][i], end='\t')    print()

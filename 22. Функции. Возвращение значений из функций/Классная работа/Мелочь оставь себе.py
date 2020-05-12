@@ -1,0 +1,1 @@
+def take_large_banknotes(banknotes):    a = []    for t in banknotes:        if t > 10:            a.append(t)    return a

@@ -1,0 +1,1 @@
+def find_mountain(heigh):    max_n = 0    max_index = ()    for i in range(len(heigh)):        if max(heigh[i]) > max_n:            max_n = max(heigh[i])            max_index = (i, heigh[i].index(max(heigh[i])))    return max_index

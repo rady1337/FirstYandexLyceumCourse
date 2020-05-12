@@ -1,0 +1,1 @@
+# -*- coding: utf-8 -*-def palindrome(s):    global q    global q_rev    q = ''    q_rev = ''    s = s.lower()    s = s.split(' ')    for i in range(len(s)):        q += s[i]    for i in range(len(q) - 1, -1, -1):        q_rev += q[i]    if q == q_rev:        return 'Палиндром'    else:        return 'Не палиндром'

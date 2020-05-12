@@ -1,0 +1,1 @@
+def eratosthenes(num):    if num < 4:        return    exam = [i for i in range(2, num + 1)]    ret = []    while exam:        for i in exam[1:]:            if not i % exam[0]:                ret.append(i)                exam.remove(i)        exam = exam[1:]    print(*ret)

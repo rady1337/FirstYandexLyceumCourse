@@ -1,0 +1,1 @@
+a = []n = input()for i in range(int(n[1:])):    b = input()    if '#' in list(b):        f = b.index('#')        b = ''.join(b[:f])    a.append(b.rstrip())for i in a:    print(i)

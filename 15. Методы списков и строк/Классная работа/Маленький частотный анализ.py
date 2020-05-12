@@ -1,0 +1,1 @@
+a = input()a = a.lower()a = list(a)max = 0bukva = 0for i in range(len(a)):    if a[i] == ' ':        continue    raz = a.count(a[i])    if raz > max:        max = raz        bukva = a[i]    if raz == max:        if ord(bukva) > ord(a[i]):            bukva = a[i]print(bukva)

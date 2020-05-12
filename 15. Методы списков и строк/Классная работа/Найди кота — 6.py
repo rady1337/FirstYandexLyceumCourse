@@ -1,0 +1,1 @@
+# -*- coding: utf-8 -*-n = int(input())for i in range(1, n + 1):    a = input()    if 'кот' in a:        num = a.find('кот')        print(i, num + 1)

@@ -1,0 +1,1 @@
+a = [int(i) for i in input().split()]e = [int(i) for i in input().split()]m = e[0]k = e[1]summa_kv = 0for i in range(m, k + 1):    summa_kv += a[i] ** 2print(summa_kv)

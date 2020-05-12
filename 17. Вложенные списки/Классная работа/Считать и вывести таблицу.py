@@ -1,0 +1,1 @@
+r = int(input())s = int(input())f = 0for i in range(r):    if f != 0:        print()    for j in range(s):        print(input(), end='\t')    f += 1

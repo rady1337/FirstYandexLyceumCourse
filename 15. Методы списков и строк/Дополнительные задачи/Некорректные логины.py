@@ -1,0 +1,1 @@
+from re import searchs = input().split(',')r = []for i in s:    r.append(i) if search('\W', i) else Noneif len(r) != 0:    el = max(map(len, r))    for i in sorted(r):        print(' ' * (el - len(i)) + i)else:    print()

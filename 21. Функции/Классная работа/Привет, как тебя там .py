@@ -1,0 +1,1 @@
+def who_are_you_and_hello():    while True:        a = input()        if a.istitle() and a.isalpha():            print('Привет,', a + '!')            break

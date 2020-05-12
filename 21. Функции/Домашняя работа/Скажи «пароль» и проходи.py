@@ -1,0 +1,1 @@
+# -*- coding: utf-8 -*-def ask_password():    n = 0    while True:        a = input()        if a == 'password':            print('Пароль принят')            break        else:            n += 1            if n == 3:                print('В доступе отказано')                exit()

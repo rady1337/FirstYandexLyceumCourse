@@ -1,0 +1,1 @@
+a = input().split(' ')b = []for i in range(len(a)):    b.append(int(a[i]))b.sort()if len(b) % 2 != 0:    e = len(b) // 2    print(b[e], end=' ')else:    e = len(b) // 2    e1 = len(b) // 2 + 1    n = (b[e - 1] + b[e1 - 1]) / 2    print(n, end=' ')max = 0maxe = 0for t in b:    if b.count(t) > max:        max = b.count(t)        maxe = tprint(maxe)

@@ -1,0 +1,1 @@
+# -*- coding: utf-8 -*-def prime(number):    d = 1    cout = 0    while True:        if number % d == 0:            cout += 1        if d > 100:            break        d += 1    if cout <= 2:        return 'Простое число'    else:        return 'Составное число'

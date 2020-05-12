@@ -1,0 +1,1 @@
+def print_average(arr):    if arr == []:        print(0)    else:        maxe = 0        for t in arr:            maxe += t        print(maxe / len(arr))

@@ -1,0 +1,1 @@
+soln = int(input())luna = int(input())chto = input()smesh = int(input())if chto == 'луна':    luna += smeshelif chto == 'солнце':    soln += smeshif luna > soln:    print('лунное')else:    print('солнечное')

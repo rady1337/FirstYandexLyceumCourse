@@ -1,0 +1,1 @@
+def equation(a, b):    xa, ya = tuple(map(float, a.split(';')))    xb, yb = tuple(map(float, b.split(';')))    if xa == xb:        print(xa)    elif ya == yb:        print(ya)    else:        k = (ya - yb) / (xa - xb)        print(k, yb - k * xb)

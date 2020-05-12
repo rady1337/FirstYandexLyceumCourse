@@ -1,0 +1,1 @@
+a = input()lenn = a.split()e = 0for t in lenn:    e += len(t)print(e)

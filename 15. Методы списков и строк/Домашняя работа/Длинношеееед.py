@@ -1,0 +1,1 @@
+a = input().lower()max = 0for i in range(len(a)):    b = a.count(a[i])    if b > max:        max = bprint(max)

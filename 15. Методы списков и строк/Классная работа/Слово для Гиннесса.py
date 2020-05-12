@@ -1,0 +1,1 @@
+a = (input().split())max = 0for i in range(0, len(a)):    if len(a[i]) > max:        max = len(a[i])print(max)

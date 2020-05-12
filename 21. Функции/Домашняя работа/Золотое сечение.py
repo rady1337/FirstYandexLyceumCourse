@@ -1,0 +1,1 @@
+def golden_ratio(i):    a, b = 0, 1    n = 1    while n <= i:        a, b = b, a + b        n += 1    print(b / a)

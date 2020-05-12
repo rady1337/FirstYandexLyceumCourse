@@ -1,0 +1,1 @@
+first = input().split('/:-[')two = input().split(':-|')flag = 0for t in first:    e = 0    s = t + ':' + ' '    for tt in two:        if len(set(t) & set(tt)) == 2:            s = s + tt + ', '            e = 1    if e == 0:        print(t + ':', 'таких слов нет')    else:        print(s[0:-2])         

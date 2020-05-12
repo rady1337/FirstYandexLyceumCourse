@@ -1,0 +1,1 @@
+n = int(input())a = []for i in range(n):    a.append(int(input()))min = int(input())max = int(input())for i in range(len(a)):    if a[i] > min - 1 and a[i] < max + 1:        print(a[i])
