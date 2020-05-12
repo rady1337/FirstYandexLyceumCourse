@@ -1,0 +1,1 @@
+a = input()len_a = len(a)for i in range(1, len_a + 1):    b = a[i - 1]    bukvaa = ord(b)    if i == len_a:        print(str(bukvaa))    else:        print(str(bukvaa) + ',', end=' ')

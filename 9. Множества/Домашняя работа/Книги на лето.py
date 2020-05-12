@@ -1,0 +1,1 @@
+m = int(input())n = int(input())dom = set()dz = set()for i in range(m):    domm = input()    dom.add(domm)for j in range(n):    dzz = input()    if dzz in dom:        print('YES')    else:        print('NO')

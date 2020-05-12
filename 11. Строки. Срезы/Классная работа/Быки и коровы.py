@@ -1,0 +1,1 @@
+a = input()b = input()biki = 0corovi = 0len_word = len(a)for i in zip(a, b):    if i[0] == i[1]:        biki += 1    elif i[0] in b:        corovi += 1print(biki, corovi)

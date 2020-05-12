@@ -1,0 +1,1 @@
+a = int(input())b = 1c = 1d = 0while b <= a:    print(b, end=' ')    b += 1    d += 1    if d == c:        print()        c += 1        d = 0

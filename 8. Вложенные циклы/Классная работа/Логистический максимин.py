@@ -1,0 +1,1 @@
+dorog = int(input())maxx = 0road = 1for i in range(dorog):    tunelei = int(input())    u = 100000000    for j in range(tunelei):        visota = int(input())        if u > visota:            u = visota    if maxx < u:        maxx = u        road = i + 1print(road, maxx)

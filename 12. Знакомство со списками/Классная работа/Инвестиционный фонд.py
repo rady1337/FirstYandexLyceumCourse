@@ -1,0 +1,1 @@
+n = int(input())start = []for i in range(n):    start.append(input())for t in start:    print(t)print()for j in start:    e = int(j) * 3    print(e)

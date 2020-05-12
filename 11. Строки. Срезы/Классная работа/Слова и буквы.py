@@ -1,0 +1,1 @@
+s1 = set()s2 = set()min = 1000max = 0low = ''high = ''while True:    s = input()    if s == 'стоп':        break    if len(s) > max:        max = len(s)        high = s    if len(s) < min:        min = len(s)        low = ss1 = set(low)s2 = set(high)if s1 & s2 == s1:    print('ДА')else:    print('НЕТ')

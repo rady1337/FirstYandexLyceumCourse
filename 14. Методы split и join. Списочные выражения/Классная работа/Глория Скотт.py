@@ -1,0 +1,1 @@
+a = input()a = a.split()b = []for i in range(2, len(a), 3):    b.append(a[i])for t in b:    print(t, end=' ')

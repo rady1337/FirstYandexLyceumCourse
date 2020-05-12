@@ -1,0 +1,1 @@
+white = []zapros = []n1 = int(input())for i in range(n1):    white.append(input())n2 = int(input())for j in range(n2):    zapros.append(input())for i in range(n2):    if zapros[i] in white:        print(zapros[i])

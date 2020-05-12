@@ -1,0 +1,1 @@
+n = int(input())kol = []tovar = []for i in range(n):    tovar.append(input())    kol.append(input())tovar.reverse()kol.reverse()for i in range(n):    print(tovar[i], kol[i])

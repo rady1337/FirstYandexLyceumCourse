@@ -1,0 +1,1 @@
+a = input()len_a = len(a)b = int(input())c = b - 1if b > len_a or b < 1:    print('ОШИБКА')else:    bukva = a[c]    print(bukva)

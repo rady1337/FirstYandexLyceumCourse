@@ -1,0 +1,1 @@
+n1 = int(input())a = []b = []final = []for i in range(n1):    a.append(input())n2 = int(input())for j in range(n2):    b.append(input())    for i in range(len(a)):    p = 0    for j in range(len(b)):        if b[j] in a[i]:            continue        else:            p = 1            break    if p == 0:        print(a[i])

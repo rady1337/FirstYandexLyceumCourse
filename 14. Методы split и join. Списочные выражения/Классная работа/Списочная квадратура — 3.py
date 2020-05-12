@@ -1,0 +1,1 @@
+a = input().split(' ')for t in a:    print(int(t) ** 2, end=' ')

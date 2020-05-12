@@ -1,0 +1,1 @@
+n = int(input())a = []s = 1e = 1for i in range(n):    a.append(input())k = int(input())m = int(input())for j in range(m):    del a[k - 1::k]for t in a:    print(t)

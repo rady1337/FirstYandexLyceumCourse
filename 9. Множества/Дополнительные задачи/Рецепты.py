@@ -1,0 +1,1 @@
+n = int(input())holod = set()eat = set()for i in range(n):    holod.add(input())n1 = int(input())for i in range(n1):    recept = input()    n2 = int(input())    e = 1    for j in range(n2):        eat.add(input())    for i in eat:        if i not in holod:            e = 0    if e == 1:        print(recept)    eat = set()    

@@ -1,0 +1,1 @@
+a = input()s = 1b = -1print(a)while True:    a = a[s:b]    print(a)    if len(a) <= 2:        break

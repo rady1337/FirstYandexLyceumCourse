@@ -1,0 +1,1 @@
+n = int(input())a = []for i in range(n):    a.append(int(input()))for i in range(n):    for j in range(1, n):        if a[j] > a[j - 1]:            a[j - 1], a[j] = a[j], a[j - 1]for t in a:    print(t)

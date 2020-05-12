@@ -1,0 +1,1 @@
+a = input()while a[0] != '1' and int(a) <= 1000000000:    a = str(int(a) * int(a[0]))print(a)

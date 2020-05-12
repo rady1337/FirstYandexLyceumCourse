@@ -1,0 +1,1 @@
+t = input()print('\n'.join(','.join(j for j in i.split(',') if int(j) >= 1000000000) for i in t.split(';')))

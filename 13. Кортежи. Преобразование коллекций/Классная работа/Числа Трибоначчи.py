@@ -1,0 +1,1 @@
+n = int(input())a = [1, 1, 1]for i in range(n - 3):    a.append(sum(a[-3:]))if n == 1:    print(1)elif n == 2:    print(1, 1)elif n == 3:    print(1, 1, 1)else:    print(*a)

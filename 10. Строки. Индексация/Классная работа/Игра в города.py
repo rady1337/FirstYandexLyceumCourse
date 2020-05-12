@@ -1,0 +1,1 @@
+first = input()rezerv = firstwhile True:    xz = input()    first_last = len(rezerv) - 1    if rezerv[first_last] == xz[0]:        rezerv = xz    else:        print(xz)        break

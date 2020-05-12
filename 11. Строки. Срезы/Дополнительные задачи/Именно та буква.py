@@ -1,0 +1,1 @@
+a = str(input())n = int(input())b = str(input())if n <= 0:    print('ОШИБКА')    exit()if len(b) > 1:    print('ОШИБКА')    exit()if n > len(a):    print('ОШИБКА')    exit()if a[n - 1] == str(b):    print('ДА')else:    print('НЕТ')

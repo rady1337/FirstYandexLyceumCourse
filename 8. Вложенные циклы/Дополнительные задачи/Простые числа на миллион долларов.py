@@ -1,0 +1,1 @@
+n = int(input())e = 0for i in range(2, n):    for j in range(2, i):        if i % j == 0:            e += 1    if e == 0:        print(i)    else:        e = 0            

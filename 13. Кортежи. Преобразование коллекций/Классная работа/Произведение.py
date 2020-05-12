@@ -1,0 +1,1 @@
+n = int(input())a = []g = 'НЕТ'for i in range(n):    b = int(input())    a.append(b)c = int(input())for i in range(n - 1):    for j in range(i + 1, n):        if a[i] * a[j] == c:            g = 1if g != 1:    print('НЕТ')elif g == 1:    print('ДА')

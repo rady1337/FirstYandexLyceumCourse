@@ -1,0 +1,1 @@
+a = int(input())n = int(input())if a == 0 and n == 0:    print('NO')    exit()fa = set()fn = set()for i in range(a):    d = input()    fa.add(d)for j in range(n):    c = input()    fn.add(c)d = a + nif fa & fn:    e = fa & fn    u = len(e)    h = (d - u) - u    if h == 0:        print('NO')    else:        print(h)else:    print(d)

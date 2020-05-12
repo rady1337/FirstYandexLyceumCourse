@@ -1,0 +1,1 @@
+a = input()n = int(a[:4])total = int(a[4:])true = 0fail = []c = 0for i in range(1, n + 1):    b = input()    cena = int(b[:7])    kol = int(b[8:12])    itog = int(b[13:])    if cena * kol != itog:        fail.append(i)    d = cena * kol    c += d    true = total - cprint(true)for t in fail:    print(t, end=' ')    

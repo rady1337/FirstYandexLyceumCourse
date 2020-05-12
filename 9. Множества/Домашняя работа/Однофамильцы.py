@@ -1,0 +1,1 @@
+n = int(input())al = []kol = 0for i in range(n):    name = input()    al.append(name)for i in set(al):    e = 0    for j in al:        if i == j:            e += 1    if e > 1:        kol += eprint(kol)        

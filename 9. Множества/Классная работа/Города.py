@@ -1,0 +1,1 @@
+n = int(input())a = set()d = 0c = 0while n != d:    x = input()    a.add(x)    d += 1g = input()if g in a:    print('TRY ANOTHER')else:    print('OK')

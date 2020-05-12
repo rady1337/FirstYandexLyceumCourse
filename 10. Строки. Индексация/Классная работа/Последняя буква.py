@@ -1,0 +1,1 @@
+a = input()b = len(a)c = b - 1print(a[c])

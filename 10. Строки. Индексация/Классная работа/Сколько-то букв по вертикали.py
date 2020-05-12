@@ -1,0 +1,1 @@
+a = input()a_len = len(a)for i in range(1, a_len + 1):    bukva = i - 1    print(a[bukva])    

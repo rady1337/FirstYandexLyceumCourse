@@ -1,0 +1,1 @@
+lenght = int(input())width = int(input())list1 = []for i in range(lenght):    list1.append(input())list2 = []for i in list1[::2]:    list2.append(i[::2])lenght = lenght // 2width = width // 2for i in list2:    print(i)

@@ -1,0 +1,1 @@
+n = int(input())b = []new = []for i in range(n):    a = input()    b.append(a)for t in b:    print(t)print()for j in range(n):    if '4' in b[j] or '5' in b[j]:        new.append(b[j])for e in new:    print(e)

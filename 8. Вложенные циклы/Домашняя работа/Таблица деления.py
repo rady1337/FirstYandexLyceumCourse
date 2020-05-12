@@ -1,0 +1,1 @@
+a = int(input())b = int(input())g = float(0)for i in range(1, b + 1):    for j in range(1, a + 1):        g = (j / i)        print(g, end=' ')    print('')

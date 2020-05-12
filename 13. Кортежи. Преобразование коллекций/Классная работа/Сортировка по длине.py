@@ -1,0 +1,1 @@
+n = int(input())a = []for i in range(n):    a.append(input())for i in range(n - 1):    for j in range(n - 1 - i):        if len(a[j]) > len(a[j + 1]):            a[j], a[j + 1] = a[j + 1], a[j]        if len(a[j]) == len(a[j + 1]):            if ord(a[j][0]) > ord(a[j + 1][0]):                a[j], a[j + 1] = a[j + 1], a[j]for e in a:    print(e)

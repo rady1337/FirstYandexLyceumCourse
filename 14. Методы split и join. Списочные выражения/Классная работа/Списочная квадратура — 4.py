@@ -1,0 +1,1 @@
+b = []n = input().split(' ')for t in n:    if int(t) % 2 != 0:        a = int(t) ** 2        if str(a)[len(str(a)) - 1] != '9':            b.append(int(t) ** 2)for e in b:    print(e, end=' ')

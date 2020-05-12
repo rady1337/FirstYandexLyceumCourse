@@ -1,0 +1,1 @@
+a = int(input())b = int(input())symb = str(input())for i in range(a):    if i == 0 or i == a - 1:        for j in range(b):            print(symb, end='')    else:        print(symb, end='')        for j in range(1, b - 1):            print(' ', end='')        print(symb, end='')    print()

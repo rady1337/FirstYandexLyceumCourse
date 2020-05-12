@@ -1,0 +1,1 @@
+n = int(input())for i in range(n):    a = input()    for j in range(len(a)):        if a[j] == 'к':            if len(a) < j + 2:                break            elif a[j + 1] == 'о':                if len(a) < j + 3:                    break                elif a[j + 2] == 'т':                    print(i + 1, j + 1)                    break

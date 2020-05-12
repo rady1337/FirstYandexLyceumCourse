@@ -1,0 +1,1 @@
+a = input()s = 0o = 'о'total = 0maxx = 0for i in range(len(a)):    if a[i] == o:        total += 1        maxx1 = total        if maxx1 > maxx:            maxx = maxx1    else:        total = 0print(maxx)

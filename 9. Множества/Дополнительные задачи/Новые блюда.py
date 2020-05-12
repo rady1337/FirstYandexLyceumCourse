@@ -1,0 +1,1 @@
+n = int(input())bluda_m = set()bluda_bili = set()for i in range(n):    bluda_m.add(input())n1 = int(input())for i in range(n1):    n2 = int(input())    for j in range(n2):        bluda_bili.add(input())q = bluda_m - bluda_bilifor i in q:    print(i)

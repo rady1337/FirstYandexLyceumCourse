@@ -1,0 +1,1 @@
+a = input()b = input()len_a = len(a) - 1if b[0] == a[len_a]:    print('ВЕРНО')else:    print('НЕВЕРНО')

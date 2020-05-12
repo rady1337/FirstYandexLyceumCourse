@@ -1,0 +1,1 @@
+n = int(input())a = []for i in range(n):    a.append(int(input()))for j in range(len(a)):    if j == len(a) - 1:        break    print(a[j] + a[j + 1])    

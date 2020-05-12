@@ -1,0 +1,1 @@
+n = int(input())a = ' 'for i in range(n):    sovet = input()    if sovet[0] == 'н' and sovet[2] == a or sovet[0] == 'Н' and sovet[2] == a and sovet[1] == 'е':        print(sovet[3:])    else:        print(sovet)

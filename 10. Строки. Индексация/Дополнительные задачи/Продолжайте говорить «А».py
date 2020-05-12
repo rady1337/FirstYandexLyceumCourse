@@ -1,0 +1,1 @@
+while True:    a = input()    if a[0] == 'а' or a[0] == 'А':        print(a)    else:        exit()

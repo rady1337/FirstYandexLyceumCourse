@@ -1,0 +1,1 @@
+a = set()a1 = set()x = input()while x != '':    a.add(x)    x = input()x1 = input()while x1 != '':    a1.add(x1)    x1 = input()if a & a1:    b = a & a1    for t in b:        print(t)else:    print('EMPTY')

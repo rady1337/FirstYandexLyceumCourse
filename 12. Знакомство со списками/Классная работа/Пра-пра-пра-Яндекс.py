@@ -1,0 +1,1 @@
+n = int(input())a = []final = []for i in range(n):    a.append(input())search = input()for t in a:    if search in t:        final.append(t)for j in final:    print(j)

@@ -1,0 +1,1 @@
+n = int(input())a = []for i in range(n):    a.append(input())search = int(input())search1 = search - 1for j in a:    if search1 < len(j):        print(j[search1], end='')

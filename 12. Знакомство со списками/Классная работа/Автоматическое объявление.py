@@ -1,0 +1,1 @@
+n1 = int(input())frazi = []for i in range(n1):    frazi.append(input())n2 = int(input())for j in range(n2):    b = int(input())    print(frazi[b - 1])            

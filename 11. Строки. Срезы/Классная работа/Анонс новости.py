@@ -1,0 +1,1 @@
+maxx = int(input())n = int(input())for i in range(n):    head = input()    if len(head) > maxx:        a = len(head)        while a != maxx - 3:            a = a - 1        print(head[:a] + '...')    else:        print(head)
