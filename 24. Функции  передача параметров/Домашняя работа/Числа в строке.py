@@ -1,0 +1,1 @@
+def from_string_to_list(string, container):    if string != '':        chisla = string.split(' ')        for t in chisla:            container.append(int(t))

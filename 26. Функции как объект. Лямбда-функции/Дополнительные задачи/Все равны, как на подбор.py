@@ -1,0 +1,1 @@
+def same_by(char, obj):    return len(set(map(char, obj))) < 2

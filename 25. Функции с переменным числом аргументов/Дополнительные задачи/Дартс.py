@@ -1,0 +1,1 @@
+scoring = {1: [8, 2], 2: [6, 16], 3: [42, 56], 20: [50, 3]}def score(target, count=3232):    global scoring    if count == 3232:        if target == 'Яблочко':            return 50        return 25    else:        if target == 'Внешнее_кольцо':            ind = 0        else:            ind = 1        return scoring[count][ind]

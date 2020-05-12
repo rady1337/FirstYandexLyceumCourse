@@ -1,0 +1,1 @@
+def partial_sums(*nums):    s = [0]    last = 0    chislo = 0    for i in nums:        chislo = last + i        s.append(chislo)        last = chislo    return s

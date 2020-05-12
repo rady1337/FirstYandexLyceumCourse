@@ -1,0 +1,1 @@
+def simple_map(transformation, values):    b = []    for i in values:        b.append(transformation(i))    return b

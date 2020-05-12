@@ -1,0 +1,1 @@
+import datetime as dtdin = dt.datetime.now()dn = dt.timedelta(days=int(input()))print((din + dn).day, (din + dn).month)

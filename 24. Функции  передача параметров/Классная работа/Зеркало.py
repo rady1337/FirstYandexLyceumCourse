@@ -1,0 +1,1 @@
+# -*- coding: utf-8 -*-def mirror(arr):    #  ошибкой являлось то, что было arr.reverse(), а она изменяет список, не создает    # Тут создается новый список,    mirrored_part = reversed(arr)    arr += mirrored_part

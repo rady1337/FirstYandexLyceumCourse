@@ -1,0 +1,1 @@
+# -*- coding: utf-8 -*-#  Данная программа сортирует числа на четные и нечетныеnumbers = [2, 5, 7, 7, 8, 4, 1, 6]#  Создание списков с четными и нечетнымиodd = []even = []for number in numbers:    if number % 2 == 0:  # Если число делится на 2 без остатка - числа идет в evem        even.append(number)    else:  # В противном случае идет в odd        odd.append(number)

@@ -1,0 +1,1 @@
+def defractalize(fractal):    for i in range(10):        try:            fractal.remove(fractal)        except ValueError:            break

@@ -1,0 +1,1 @@
+# -*- coding: utf-8 -*-def hello(name):    print('Здравствуйте,', name + '! Вашу карту ищут...')def search_card(name):    if name in base:        a = base.index(name) + 1        print('Ваша карта с номером', a, 'найдена')    else:        print('Ваша карта не найдена')

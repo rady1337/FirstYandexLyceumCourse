@@ -1,0 +1,1 @@
+a = input()print(*sorted(a.split(), key=str.lower))

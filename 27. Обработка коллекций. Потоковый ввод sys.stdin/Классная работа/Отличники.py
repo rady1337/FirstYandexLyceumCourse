@@ -1,0 +1,1 @@
+a = []bools = []for i in range(int(input())):    for j in range(int(input())):        a.append(input().split())    bools.append(any(x[1] == '5' for x in a))    a.clear()if all(bools):    print('ДА')else:    print('НЕТ')

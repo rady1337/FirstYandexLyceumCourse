@@ -1,0 +1,1 @@
+n = 0a = 0def print_without_duplicates(message):    global a    if message != a:        a = message        print(message)

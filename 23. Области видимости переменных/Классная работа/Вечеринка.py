@@ -1,0 +1,1 @@
+def add_friends(name, frend):    if name in d:        d[name] = d[name] + frend    else:        d[name] = frenddef are_friends(name1, name2):    return (name2 in d[name1])def print_friends(name):    print(*sorted(d[name]))d = {}

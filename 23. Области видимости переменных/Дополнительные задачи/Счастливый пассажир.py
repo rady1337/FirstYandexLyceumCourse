@@ -1,0 +1,1 @@
+def is_lucky(ticket):    ticket = str(ticket)    res = sum(map(int, ticket[:3])) == sum(map(int, ticket[3:]))    return resdef lucky(ticket):    ticket = str(ticket)    ticket = '0' * (6 - len(ticket)) + ticket    if is_lucky(ticket) and is_lucky(lastTicket):        return "Счастливый"    else:        return "Несчастливый"

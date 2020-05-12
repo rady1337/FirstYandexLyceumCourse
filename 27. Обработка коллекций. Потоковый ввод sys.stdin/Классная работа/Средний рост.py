@@ -1,0 +1,1 @@
+# -*- coding: utf-8 -*-import sysrost = []for line in sys.stdin:    line = line.rstrip('\n')    rost.append(line)lenn = len(rost)summ = 0if (lenn == 1 and rost[0] == '') or lenn == 0:    print(-1)else:    for i in rost:        summ += int(i)    print(summ / lenn)

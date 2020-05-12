@@ -1,0 +1,1 @@
+def matrix(n=None, m=None, a=None):    if (n is None) and (m is None) and (a is None):        return [[0]]    elif (a is None) and (m is None):        return [[0 for i in range(n)] for i in range(n)]    elif a is None:        return [[0 for i in range(m)] for i in range(n)]    else:        return [[a for i in range(m)] for i in range(n)]

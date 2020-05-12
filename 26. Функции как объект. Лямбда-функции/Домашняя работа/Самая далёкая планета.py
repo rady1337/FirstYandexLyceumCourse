@@ -1,0 +1,1 @@
+maxx = 0index_max = 0def find_farthest_orbit(list_of_orbits):    global maxx    maxx = [sum(i) for i in list_of_orbits]    max = 0    for i in range(len(maxx)):        if maxx[i] > max:            max = maxx[i]            index_max = i    return list_of_orbits[index_max]

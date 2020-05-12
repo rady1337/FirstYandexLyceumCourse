@@ -1,0 +1,1 @@
+# -*- coding: utf-8 -*-horse = []def do_bet(n, bet):    if n not in horse and bet != 0 and n <= 10 and n != 0:        print('Ваша ставка в размере', bet, 'на лошадь', n, 'принята')        horse.append(n)    else:        print('Что-то пошло не так, попробуйте еще раз')

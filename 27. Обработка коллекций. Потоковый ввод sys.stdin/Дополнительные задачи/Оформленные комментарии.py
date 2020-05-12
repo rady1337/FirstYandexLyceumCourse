@@ -1,0 +1,1 @@
+import sysa = []final = []for i in sys.stdin:    i = i.strip()    a.append(i)for i in range(len(a)):    if a[i] != '':        b = a[i]        if b[0] == '#':            if b[1] == ' ':                b = b[2:]            else:                b = b[1:]            c = 'Line ' + str(i + 1) + ': ' + b            final.append(c)a = [print(i) for i in final]

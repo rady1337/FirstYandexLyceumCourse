@@ -1,0 +1,1 @@
+import syscount = 0a = []for i in sys.stdin:    i = i.strip()    a.append(i)for i in a:    if i != '':        if i[0] == '#':            count += 1print(count)

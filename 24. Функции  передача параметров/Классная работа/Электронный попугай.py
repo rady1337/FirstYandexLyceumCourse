@@ -1,0 +1,1 @@
+a = []def parrot(message):    if message in a:        print(message)    else:        a.append(message)

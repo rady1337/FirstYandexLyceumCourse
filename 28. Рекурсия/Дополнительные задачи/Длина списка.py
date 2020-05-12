@@ -1,0 +1,1 @@
+def recursive_len(some_list):    if len(some_list) == 0:        return 0    return 1 + recursive_len(some_list[:-1])

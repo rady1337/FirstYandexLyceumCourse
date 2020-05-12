@@ -1,0 +1,1 @@
+def count_food(day):    global daily_food    if len(day) > 1:        summ = 0        for i in day:            i += -1            summ += daily_food[i]        return summ    else:        day = day[0] - 1        summ = daily_food[day]        return summ

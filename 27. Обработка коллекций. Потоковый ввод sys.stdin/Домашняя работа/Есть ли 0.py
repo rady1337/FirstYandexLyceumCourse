@@ -1,0 +1,1 @@
+from sys import stdin as stprint("0" in st.read().split())

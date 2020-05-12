@@ -1,0 +1,1 @@
+def transpose(mat):    matr = []    kol_spis = len(mat)    kol_el = len(mat[0])    for i in range(kol_el):        e = []        for j in range(kol_spis):            e = e + [mat[j][i]]        matr = matr + [e]    mat[:] = matr

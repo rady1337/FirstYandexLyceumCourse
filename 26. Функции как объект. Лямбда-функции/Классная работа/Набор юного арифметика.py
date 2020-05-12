@@ -1,0 +1,1 @@
+def arithmetic_operation(operation):    if operation == '+':        return plus    elif operation == '-':        return minus    elif operation == '*':        return umnoj    elif operation == '/':        return delitdef plus(a, b):    return a + bdef minus(a, b):    return a - bdef umnoj(a, b):    return a * bdef delit(a, b):    return a / b
