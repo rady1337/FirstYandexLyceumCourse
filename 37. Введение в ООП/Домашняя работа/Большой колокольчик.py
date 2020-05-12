@@ -1,0 +1,1 @@
+class BigBell:    def __init__(self):        self.now = 'ding'    def sound(self):        print(self.now)        if self.now == 'ding':            self.now = 'dong'        else:            self.now = 'ding'

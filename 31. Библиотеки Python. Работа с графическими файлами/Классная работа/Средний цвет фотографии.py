@@ -1,0 +1,1 @@
+from PIL import Image as imimage = im.open('image.jpg')pixels = image.load()x, y = image.sizen, r1, g1, b1 = 0, 0, 0, 0for i in range(x):    for j in range(y):        r, g, b = pixels[i, j]        n += 1        r1 += r        g1 += g        b1 += bprint(r1 // n, g1 // n, b1 // n)

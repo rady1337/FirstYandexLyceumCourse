@@ -1,0 +1,1 @@
+def cached(func):    results = {}        def decorated_func(*args, **kwargs):        nonlocal results        res = func(*args, **kwargs)        results[args[0]] = res        if "get" in kwargs and kwargs["get"]:            return results        return res    return decorated_func

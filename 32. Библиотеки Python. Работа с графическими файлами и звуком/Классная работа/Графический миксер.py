@@ -1,0 +1,1 @@
+from PIL import Imagedef twist_image(input_ﬁle_name, output_ﬁle_name):    img = Image.open(input_ﬁle_name)    width, height = img.size    pixels = img.load()    mid = width // 2    for i in range(mid):        for j in range(height):            pixels[i, j], pixels[i + mid, j] = pixels[i + mid, j], pixels[i, j]    img.save(output_ﬁle_name)

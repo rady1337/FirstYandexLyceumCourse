@@ -1,0 +1,1 @@
+from docx import Documentfrom sys import stdin as stmesto = input()time = input()girls = st.read().split()document = Document()for i in girls:    document.add_heading(i + '!')    document.add_paragraph('Приглашаем тебя на праздник! ' + mesto + '!')    document.add_paragraph('Приходи туда ' + time)    document.add_paragraph('Ждём тебя!')document.save('invent.docx')

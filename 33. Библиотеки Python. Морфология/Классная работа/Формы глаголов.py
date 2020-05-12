@@ -1,0 +1,1 @@
+from sys import stdin as stfrom pymorphy2 import MorphAnalyzer as morphtext = st.read().lower()m = morph()alphabet = 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя \n'word = ''.join([i for i in text if i in alphabet]).split()count = 0for i in word:    if m.parse(i)[0].normal_form in ['видеть', 'увидеть', 'глядеть', 'примечать', 'узреть']:        count += 1print(count)

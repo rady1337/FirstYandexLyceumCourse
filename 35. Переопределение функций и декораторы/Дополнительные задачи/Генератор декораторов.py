@@ -1,0 +1,1 @@
+def check_password(func, password):    def decor(pas):        if pas != password:            print("Вход отклонен")            return        def new_func(*args, **kwargs):            return func(*args, **kwargs)        return new_func    return decor

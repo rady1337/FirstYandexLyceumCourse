@@ -1,0 +1,1 @@
+def verx(a):    vivod(a.upper())vivod = printprint = verx
