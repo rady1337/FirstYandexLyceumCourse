@@ -1,0 +1,1 @@
+b = 0c = 1while b != 6:    a = int(input())    b += 1    if a == 0:        a == 1    else:        c = a * cprint(c)        

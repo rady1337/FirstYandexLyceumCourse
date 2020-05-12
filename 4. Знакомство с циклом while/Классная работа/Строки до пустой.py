@@ -1,0 +1,1 @@
+while True:    b = input()    c = len(b)    if c > 0:        print(b)    else:        breakexit()

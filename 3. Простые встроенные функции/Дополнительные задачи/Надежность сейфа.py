@@ -1,0 +1,1 @@
+a = input()p = len(set(a))if p == 3:    print('ОК')elif p == 2:    print('В числе две одинаковые цифры')elif p == 1:    print('В числе все цифры одинаковые')

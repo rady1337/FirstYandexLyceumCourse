@@ -1,0 +1,1 @@
+kol = int(input())h0 = 0vvod = 0fail = -1while kol != vvod:    b = int(input())    vvod += 1    h = b % 256    r = (b // 256) % 256    m = b // 256 ** 2    hh = (37 * (m + r + h0)) % 256    if hh != h or h >= 100:        if fail == -1:            fail = vvod - 1    h0 = hprint(fail)        

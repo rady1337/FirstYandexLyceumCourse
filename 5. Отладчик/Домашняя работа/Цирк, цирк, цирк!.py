@@ -1,0 +1,1 @@
+n = int(input())count = 1flagg = 0while n != 1:    if n % 2 == 0:        n = n / 2    elif n % 2 == 1:        n = n - 1    flagg += 1print(flagg)

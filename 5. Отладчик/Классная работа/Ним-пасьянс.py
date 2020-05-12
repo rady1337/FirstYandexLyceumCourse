@@ -1,0 +1,1 @@
+a = int(input())d = 0while True:    b = int(input())    d = a - b    print(d)    a = d    if a <= 0:        break

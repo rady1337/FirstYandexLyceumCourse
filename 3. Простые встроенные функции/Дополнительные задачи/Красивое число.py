@@ -1,0 +1,1 @@
+d = 2u = input()a = int(u[0])b = int(u[1])c = int(u[2])if a + b + c in [a * 3, b * 3, c * 3]:    print('Вы ввели красивое число')else:    print('Жаль, вы ввели обычное число')

@@ -1,0 +1,1 @@
+t = 0while True:    a = float(input())    if a > 1000 and a > 0:        b = a * 5 / 100        c = a - b        t = t + c    else:        if a < 1000 and a > 0:            t = t + a        elif a < 0:            breakprint(t)

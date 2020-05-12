@@ -1,0 +1,1 @@
+a = int(input())b = int(input())d1 = a - bif b > 3 or b > d1 or b < 0:    print(a)else:    print(d1)    a = d1while a != 0:    b = int(input())    d = a - b    if b > 3 or b > a or b < 0:        print(a)    elif d == 0:        break    else:        print(d)        a = dprint('0')

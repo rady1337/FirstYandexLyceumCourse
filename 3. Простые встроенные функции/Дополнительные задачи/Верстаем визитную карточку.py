@@ -1,0 +1,1 @@
+d = 2t = 3a = input()e = len(a)print(int(e) * int(d) + int(t))

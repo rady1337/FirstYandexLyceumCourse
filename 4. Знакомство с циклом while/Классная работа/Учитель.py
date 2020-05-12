@@ -1,0 +1,1 @@
+a = int(input())while a > 0:    b = a % 8    a = a // 8print(b)

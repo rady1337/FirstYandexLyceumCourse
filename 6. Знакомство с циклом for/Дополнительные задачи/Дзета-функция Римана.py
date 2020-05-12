@@ -1,0 +1,1 @@
+n = int(input())s = 0c = 0for i in range(1, n + 1):    c = 1 / i**2    s = s + cp = 3.141592653589793 ** 2d = p / sprint(d)

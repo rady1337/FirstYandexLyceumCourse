@@ -1,0 +1,1 @@
+a = 0while True:    b = int(input())    if b > 0 or b < 0:        print(b)    elif b == 0:        break

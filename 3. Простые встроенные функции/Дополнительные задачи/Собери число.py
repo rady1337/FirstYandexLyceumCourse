@@ -1,0 +1,1 @@
+u = input()a = int(u[0])b = int(u[1])c = int(u[2])xq = a + bxw = b + cif xq > xw:    print(str(xq) + str(xw))else:    print(str(xw) + str(xq))

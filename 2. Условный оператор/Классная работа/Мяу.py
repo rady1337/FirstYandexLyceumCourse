@@ -1,0 +1,1 @@
+a = input()if 'кот' in a or 'Кот' in a:    print('МЯУ')else:    print('ГАВ')

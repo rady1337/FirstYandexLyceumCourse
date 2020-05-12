@@ -1,0 +1,1 @@
+flag = 0while True:    a = str(input())    dlina = len(a)    b = str(input())    if dlina < 8:        print('Короткий!')    elif '123' in a:        print('Простой!')    elif a != b:        print('Различаются.')    else:        flag = 1    if flag == 1:        breakprint('OK')

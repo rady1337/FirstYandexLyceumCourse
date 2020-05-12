@@ -1,0 +1,1 @@
+s = 0o = 0a = float(input())while a > -300:    s = s + 1    o = o + a    a = float(input())c = o / sprint(c)

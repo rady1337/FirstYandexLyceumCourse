@@ -1,0 +1,1 @@
+a = int(input()) - 1b = 1while a > - 1:    print(' ' * a + '*' * b)    b += 2    a -= 1

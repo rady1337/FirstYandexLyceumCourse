@@ -1,0 +1,1 @@
+p = '+'m = '-'u = '*'d = '/'a = float(input())b = float(input())c = input()if c != p and c != m and c != u and c != d:    print('888888')else:    if c == d and b == 0 or a == 0:        print('888888')    elif c == p:        print(a + b)    elif c == m:        print(a - b)    elif c == u:        print(a * b)    elif c == d:        print(a / b)

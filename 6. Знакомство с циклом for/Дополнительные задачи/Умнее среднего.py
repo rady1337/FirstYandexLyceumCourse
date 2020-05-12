@@ -1,0 +1,1 @@
+kol = int(input())iq = int(input())print(0)rezerv = iqfor i in range(1, kol):    iq = int(input())    sr = (rezerv + iq) / (i + 1)    if sr > iq:        print('<')    elif sr < iq:        print('>')    elif sr == iq:        print(0)    rezerv += iq

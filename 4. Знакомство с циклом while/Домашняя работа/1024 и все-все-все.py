@@ -1,0 +1,1 @@
+a = int(input())b = 0while a > 1:    a = a / 2    b += 1if a == 1:    print(b)else:    print('НЕТ')    

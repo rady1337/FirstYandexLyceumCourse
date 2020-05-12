@@ -1,0 +1,1 @@
+a = input()c = input()b = len(a)if b < 8:    print('Короткий!')    exit()else:    if c != a:        print('Различаются.')        exit()    else:        print('OK')

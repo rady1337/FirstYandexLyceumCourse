@@ -1,0 +1,1 @@
+b = int(input())d = 0c = 0while b != d:    a = str(input())    d = d + 1    if 'кот' in a or 'Кот' in a:        c = 1    if c == 1:        if 'Пёс' in a or 'пёс' in a:            c = 0if c == 1:    print('МЯУ')elif c == 0:    print('НЕТ')

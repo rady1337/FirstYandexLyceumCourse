@@ -1,0 +1,1 @@
+a = int(input())e = 0p = 'НЕТ'for i in range(1, a + 1):    if a % i == 0:        print(i, end=' ')        e += 1if e > 2 or e < 2:    print('\n' + p, end='\n')elif e == 2:    print('\n' + 'ПРОСТОЕ')

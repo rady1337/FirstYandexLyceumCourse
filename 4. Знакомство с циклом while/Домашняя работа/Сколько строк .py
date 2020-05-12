@@ -1,0 +1,1 @@
+s = 0while True:    a = str(input())    s += 1    if a == 'Спасибо.':        breakprint(s)

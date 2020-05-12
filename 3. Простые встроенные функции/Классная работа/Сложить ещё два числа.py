@@ -1,0 +1,1 @@
+a = float(input())b = float(input())c = a + bprint(c) 

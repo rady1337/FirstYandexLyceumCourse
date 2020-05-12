@@ -1,0 +1,1 @@
+a = 0s = 0maxx = 150minn = 190a = input()while a != '!':    a = int(a)    if int(a) >= 150 and int(a) <= 190:        s += 1        if int(a) > maxx:            maxx = a        if int(a) < minn:            minn = a    a = input()print(s)print(minn, maxx)

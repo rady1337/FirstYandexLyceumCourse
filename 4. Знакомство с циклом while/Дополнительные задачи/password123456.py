@@ -1,0 +1,1 @@
+a = input()al = len(a)if al < 8:    print('Короткий!')elif '123' in a:    print('Простой!')else:    b = input()    if b != a:        print('Различаются.')    else:        print('OK')

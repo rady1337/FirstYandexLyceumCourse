@@ -1,0 +1,1 @@
+kol = int(input())www = 0yyy = 1for i in range(kol):    a = int(input())    b = int(input())    www = www * b + a * yyy    yyy *= bx = wwwy = yyywhile y > 0:    x, y = y, x % yprint(www // x, '/', yyy // x, sep='')

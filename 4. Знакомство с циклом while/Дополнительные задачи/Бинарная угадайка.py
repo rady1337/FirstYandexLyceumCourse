@@ -1,0 +1,1 @@
+minn = 1maxx = 1000znak = 0tryy = 0print('500')znak = input()while znak != '=' or tryy != 10:    if znak == '<':        minn = minn + (maxx - minn) // 2        ee = minn + (maxx - minn) // 2    if znak == '>':        maxx = maxx - (maxx - minn) // 2        ee = maxx - (maxx - minn) // 2    print(ee)    znak = input()    if znak == '=':        break

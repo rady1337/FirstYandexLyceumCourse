@@ -1,0 +1,1 @@
+c = 4e = 0f = 100d = 400a = int(input())if a % c == 0 and a % f != 0:    print('Високосный')elif a % d == 0:    print('Високосный')else:    print('Не високосный')    

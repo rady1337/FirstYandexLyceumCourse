@@ -1,0 +1,1 @@
+a = str(input())b = int(input())c = 0while c != b:    print(a)    c += 1

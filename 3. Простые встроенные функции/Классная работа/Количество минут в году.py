@@ -1,0 +1,1 @@
+a = days_per_year = 365b = hours_per_day = 24c = minutes_per_hour = 60x = a * b * cprint(x)
